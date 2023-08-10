@@ -1,0 +1,71 @@
+*{margin: 0; padding: 0; scroll-behavior: smooth;}
+
+body{background-color: white;}
+
+header{width: 100%; display: flex; justify-content: space-around;
+    align-items: center; padding: 10px 0; background-color: white;
+    border-bottom: 1px solid #dedede;}
+/*Cabecera*/
+a{width: 15%; text-decoration: none;}
+
+.logo{width: 100%;}
+
+.box-search{display: flex; justify-content: center; align-items: center; width: 27%; height: auto; 
+    border: 2px solid rgb(89, 0, 255); border-radius: 30px; padding: 5px;}
+
+.lupa{width: 7%; height: auto; margin: 5px 8px;}
+
+input[type=search]{font-size: 20pt; border: none; margin-right: 5px; width: 80%;}
+
+input[type=search]:focus{outline: none;}
+
+ul.header{display: flex; justify-content: center; align-items: center;}
+
+ul li{list-style: none;}
+
+.header li{padding: 0 15px; display: inline-block;}
+    
+.l1, .l2{text-decoration: none; font-size: 24px; font-weight: 600; color: rgb(160, 60, 255);}
+
+.header li a img{width: 30px;}
+
+/* Menu*/
+nav{background-color: rgb(230, 230, 230);}
+
+#nav{display: flex; flex-direction: row; justify-content: space-around;
+    align-items: center;}
+
+#nav li{padding: 20px 30px; font-size: 20px; font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif; cursor: pointer;}
+
+#nav li:hover{background-color: rgb(150, 150, 150);}
+
+img#menu{width: 24px;}
+
+#linav div{display: flex; flex-direction: row; justify-content: center; align-items: center;}
+
+#linav div p{margin-left: 10px;}
+
+#linav{position: relative;}
+
+/*SubMenu*/
+#submenu{display: none;position: absolute; width: 100%; z-index: 10; left: 0; top: 60px;}
+
+#linav:hover #submenu{display: block;}
+
+#submenu li a{display: block; padding: 5px 0; text-align: center; color: black;}
+
+#submenu li{border: 2px solid white; background-color: rgba(0, 0, 255, 0.4);}
+/*Footer*/
+footer#Mi_fondo{background-color: rgb(0, 0, 100); width: 100%; height: auto; color: white; padding: 5% 0; display: flex;
+    font-family: sans-serif;}
+
+footer#Mi_fondo div{width: 20%; height: auto; margin: 0 3%; line-height: 28px; font-size: 20px;}
+
+footer#Mi_fondo img{width: 80%;}
+
+footer#Mi_fondo h3{text-decoration: underline;}
+
+footer#Mi_fondo div span{font-weight: bolder;}
+
+footer#Mi_fondo a{color: rgb(120, 250, 255); font-size: 20px; text-align: center;}
